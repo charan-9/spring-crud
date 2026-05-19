@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CrudController {
     @GetMapping("")
     public String getMethodName() {
-        return "hello from crud app after adding the webhook";
+        return "Coming from docker, built using jenkins";
     }
 
 }
