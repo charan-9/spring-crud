@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CrudController {
     @GetMapping("")
     public String getMethodName() {
-        return "Hello, this is an updated message";
+        return "Added health endpoint with actuator dependency";
     }
 
 }
