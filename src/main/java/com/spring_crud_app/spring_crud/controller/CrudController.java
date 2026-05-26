@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CrudController {
     @GetMapping("")
     public String getMethodName() {
-        return "Added health endpoint with actuator dependency";
+        return "Added GitHub webhook for Jenkins auto build";
     }
 
 }
